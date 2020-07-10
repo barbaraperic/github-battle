@@ -32,7 +32,6 @@ function Instructions() {
     </ThemeConsumer>   
   )
 }
-
 class PlayerInput extends React.Component {
 
   state = {

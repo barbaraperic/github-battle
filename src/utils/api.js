@@ -52,7 +52,7 @@ function getUserData (player) {
 }
 
 function sortPlayers (players) {
-  return players.sort((a, b) => b.sort - a.sort)
+  return players.sort((a, b) => b.score - a.score)
 }
 
 export function battle (players) {

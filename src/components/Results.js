@@ -95,7 +95,7 @@ export default class Results extends React.Component {
           <ProfileList profile={winner.profile}/>
         </Card>
         <Card
-          header={loser.score === winner.score ? 'Tie' : 'Loser'}
+          header={winner.score === loser.score ? 'Tie' : 'Loser'}
           avatar={loser.profile.avatar_url}
           subheader={loser.score.toLocaleString()}
           href={loser.profile.html_url}
